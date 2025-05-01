@@ -1,6 +1,5 @@
 # Performance optimizations
 DISABLE_AUTO_UPDATE="true"
-DISABLE_MAGIC_FUNCTIONS="true"
 DISABLE_COMPFIX="true"
 
 # Cache completions aggressively
