@@ -80,3 +80,8 @@ export NVM_DIR="$HOME/.nvm"
 fastfetch
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+export XDG_DATA_DIRS="/var/lib/flatpak/exports/share:/home/jean/.local/share/flatpak/exports/share:$XDG_DATA_DIRS"
+
+export JAVA_HOME="$HOME/apps/android-studio/jbr"
+export ANDROID_HOME="$HOME/Android/Sdk"
+export NDK_HOME="$ANDROID_HOME/ndk/$(ls -1 $ANDROID_HOME/ndk)"
