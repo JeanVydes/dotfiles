@@ -14,22 +14,24 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 
 # Theme config
-ZSH_THEME="spaceship"
+#ZSH_THEME="spaceship"
+ZSH_THEME="jean"
+
 
 # Spaceship settings
-SPACESHIP_PROMPT_ASYNC=true
-SPACESHIP_PROMPT_ADD_NEWLINE=true
-SPACESHIP_CHAR_SYMBOL="⚡"
+#SPACESHIP_PROMPT_ASYNC=true
+#SPACESHIP_PROMPT_ADD_NEWLINE=true
+#SPACESHIP_CHAR_SYMBOL="⚡"
 
 # Minimal spaceship sections for performance
-SPACESHIP_PROMPT_ORDER=(
-  time
-  user
-  dir
-  git
-  line_sep
-  char
-)
+#SPACESHIP_PROMPT_ORDER=(
+#  time
+#  user
+#  dir
+#  git
+#  line_sep
+#  char
+#)
 
 # Carefully ordered plugins (syntax highlighting must be last)
 plugins=(
@@ -85,3 +87,5 @@ export XDG_DATA_DIRS="/var/lib/flatpak/exports/share:/home/jean/.local/share/fla
 export JAVA_HOME="$HOME/apps/android-studio/jbr"
 export ANDROID_HOME="$HOME/Android/Sdk"
 export NDK_HOME="$ANDROID_HOME/ndk/$(ls -1 $ANDROID_HOME/ndk)"
+export PATH="/home/jean/apps/idea-IU-252.23892.409/bin:$PATH"
+export PATH="/home/jean/apps/android-studio/bin:$PATH"
